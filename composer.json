@@ -1,26 +1,26 @@
 {
-    "name": "HuntWeb/contact",
-    "description": "This is a test package",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Subhabrata Kundu",
-            "email": "skundu.creative@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload-dev": {
-        "psr-4": {
-            "HuntWeb\\contact\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "HuntWeb\\contact\\ContactServiceProvider"
-            ]
-        }
+  "name": "huntweb/contact",
+  "description": "This is a test package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Subhabrata Kundu",
+      "email": "skundu.creative@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload-dev": {
+    "psr-4": {
+      "HuntWeb\\contact\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HuntWeb\\contact\\ContactServiceProvider"
+      ]
+    }
+  }
 }
